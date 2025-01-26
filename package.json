@@ -1,0 +1,25 @@
+{
+  "name": "ai-agent-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate":"drizzle-kit generate",
+    "migrate":"drizzle-kit migrate",
+    "studio":"drizzle-kit studio"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.2",
+    "tsx": "^4.19.2"
+  },
+ "dependencies": {
+  "drizzle-orm": "^x.x.x",
+  "pg-core": "git+ssh://git@github.com/drizzle-orm/pg-core.git"
+
+
+  }
+}
